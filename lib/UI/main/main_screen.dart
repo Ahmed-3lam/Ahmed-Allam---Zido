@@ -77,7 +77,7 @@ class _MainScreenState extends State<MainScreen>
 
                     /// Latest Items
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.all(12.0),
                       child: Row(
                         children: [
                           Text(
@@ -101,7 +101,7 @@ class _MainScreenState extends State<MainScreen>
 
                     ///private auctions
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.all(12.0),
                       child: Row(
                         children: [
                           Text(
@@ -126,7 +126,7 @@ class _MainScreenState extends State<MainScreen>
 
                     ///Latest Posts
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.all(12.0),
                       child: Row(
                         children: [
                           Text(

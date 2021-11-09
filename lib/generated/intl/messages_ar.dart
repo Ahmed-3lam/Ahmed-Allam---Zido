@@ -160,6 +160,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "used": MessageLookupByLibrary.simpleMessage("مستعمل"),
         "valid_number": MessageLookupByLibrary.simpleMessage("ادخل رقم صالح"),
         "yes": MessageLookupByLibrary.simpleMessage("نعم"),
+        "your_items":
+            MessageLookupByLibrary.simpleMessage("منتجاتك ذو قيمة عالية"),
         "zip": MessageLookupByLibrary.simpleMessage("الرمز البريدي")
       };
 }

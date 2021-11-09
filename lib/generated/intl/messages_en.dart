@@ -162,6 +162,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "used": MessageLookupByLibrary.simpleMessage("Used"),
         "valid_number": MessageLookupByLibrary.simpleMessage("Valid Number"),
         "yes": MessageLookupByLibrary.simpleMessage("Yes"),
+        "your_items":
+            MessageLookupByLibrary.simpleMessage("Your Items are valuable"),
         "zip": MessageLookupByLibrary.simpleMessage("Zip")
       };
 }

@@ -180,6 +180,16 @@ class S {
     );
   }
 
+  /// `Your Items are valuable`
+  String get your_items {
+    return Intl.message(
+      'Your Items are valuable',
+      name: 'your_items',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `ZaheyDashboard`
   String get appName {
     return Intl.message(

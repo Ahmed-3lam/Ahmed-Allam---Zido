@@ -73,7 +73,7 @@ class _MainScreenState extends State<MainScreen>
               body: SingleChildScrollView(
                 child: Column(
                   children: [
-                    const BannerBuilder(),
+                     BannerBuilder(),
 
                     /// Latest Items
                     Padding(

@@ -1,6 +1,5 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class BannerBuilder extends StatefulWidget {
    BannerBuilder({Key? key}) : super(key: key);
@@ -52,14 +51,15 @@ class _BannerBuilderState extends State<BannerBuilder> {
             children: imgList.map((url) {
               int index = imgList.indexOf(url);
               return Container(
-                width: 8.0,
-                height: 8.0,
-                margin: EdgeInsets.symmetric(vertical: 4.0, horizontal: 2.0),
+                width: 18.0,
+                height: 4.0,
+                margin: const EdgeInsets.symmetric(vertical: 4.0, horizontal: 2.0),
                 decoration: BoxDecoration(
-                  shape: BoxShape.circle,
+                  borderRadius: BorderRadius.horizontal(
+                      right: Radius.circular(8),left:  Radius.circular(8)),
                   color: _current == index
-                      ? Colors.white60
-                      : Color.fromRGBO(0, 0, 0, 0.4),
+                      ? Colors.yellow
+                      : Colors.white,
                 ),
               );
             }).toList(),

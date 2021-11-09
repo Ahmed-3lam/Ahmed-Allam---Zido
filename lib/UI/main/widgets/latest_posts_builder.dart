@@ -52,8 +52,10 @@ class LatestPostsBuilder extends StatelessWidget {
                   ),
                 ),
                 Positioned(
-                  bottom: 1,
-                  child: Padding(
+                  bottom: 0,
+                  child: Container(
+                    color: Colors.black38,
+                    width: 300,
                     padding: const EdgeInsets.all(8.0),
                     child: Row(
                       children: [

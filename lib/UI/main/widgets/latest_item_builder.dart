@@ -40,8 +40,10 @@ class LatestItemBuilder extends StatelessWidget {
                           children: [
                             ClipRRect(
                               borderRadius:
-                              BorderRadius.all(
-                                  Radius.circular(4)),
+                              BorderRadius.only(
+                                  topLeft:Radius.circular(4),
+                                  topRight:Radius.circular(4),
+                              ),
                               child: Image.network(
                                 "https://www.cnet.com/a/img/CSTqzAl5wJ57HHyASLD-a0vS2O0=/940x528/2021/04/05/9e065d90-51f2-46c5-bd3a-416fd4983c1a/elantra-1080p.jpg",
                                 fit: BoxFit.cover,

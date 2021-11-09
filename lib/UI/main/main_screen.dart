@@ -58,8 +58,8 @@ class _MainScreenState extends State<MainScreen>
                 ),
                 actions: const [
                   Padding(
-                    padding: EdgeInsets.all(8.0),
-                    child: Icon(CupertinoIcons.bell_fill),
+                    padding: EdgeInsets.all(12.0),
+                    child: Icon(CupertinoIcons.bell),
                   )
                 ],
               ),

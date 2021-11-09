@@ -4,9 +4,10 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get/get.dart';
 
 
-import 'UI/Main/main/cubit/main_cubit.dart';
-import 'UI/Main/main/main_screen.dart';
 
+
+import 'UI/main/cubit/main_cubit.dart';
+import 'UI/main/main_screen.dart';
 import 'generated/l10n.dart';
 
 void main() async {

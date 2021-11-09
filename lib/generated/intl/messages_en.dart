@@ -47,6 +47,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Banner Name English"),
         "brand": MessageLookupByLibrary.simpleMessage("Brand"),
         "button_text": MessageLookupByLibrary.simpleMessage("Button Text"),
+        "buy": MessageLookupByLibrary.simpleMessage("Buy"),
         "canceled": MessageLookupByLibrary.simpleMessage("Canceled"),
         "category": MessageLookupByLibrary.simpleMessage("Category"),
         "chat": MessageLookupByLibrary.simpleMessage("Chat"),
@@ -114,6 +115,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Product name in arabic"),
         "product_name_english":
             MessageLookupByLibrary.simpleMessage("Product name in english"),
+        "profile": MessageLookupByLibrary.simpleMessage("Profile"),
         "reSend": MessageLookupByLibrary.simpleMessage("Resend"),
         "receivedCode": MessageLookupByLibrary.simpleMessage(
             "Haven\'t received the code yet?"),
@@ -123,6 +125,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "route": MessageLookupByLibrary.simpleMessage("Route"),
         "sar": MessageLookupByLibrary.simpleMessage("SAR"),
         "see_all": MessageLookupByLibrary.simpleMessage("See All"),
+        "sell": MessageLookupByLibrary.simpleMessage("Sell"),
         "setting": MessageLookupByLibrary.simpleMessage("Setting"),
         "ship_details": MessageLookupByLibrary.simpleMessage("Ship Details"),
         "shipped": MessageLookupByLibrary.simpleMessage("Shipped"),

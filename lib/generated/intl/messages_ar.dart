@@ -47,6 +47,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "اسم البانر باللغة الإنجليزية"),
         "brand": MessageLookupByLibrary.simpleMessage("العلامة التجارية"),
         "button_text": MessageLookupByLibrary.simpleMessage("نص الزر"),
+        "buy": MessageLookupByLibrary.simpleMessage("الشراء"),
         "canceled": MessageLookupByLibrary.simpleMessage("تم الإلغاء"),
         "category": MessageLookupByLibrary.simpleMessage("الفئة"),
         "chat": MessageLookupByLibrary.simpleMessage("الرسائل"),
@@ -114,6 +115,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("اسم المنتج باللغة العربية"),
         "product_name_english": MessageLookupByLibrary.simpleMessage(
             "اسم المنتج باللغة الإنجليزية"),
+        "profile": MessageLookupByLibrary.simpleMessage("حسابي"),
         "reSend": MessageLookupByLibrary.simpleMessage("إعادة الإرسال"),
         "receivedCode": MessageLookupByLibrary.simpleMessage(
             "أدخل الرمز المرسل إلى البريد الإلكتروني"),
@@ -122,7 +124,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "required": MessageLookupByLibrary.simpleMessage("مطلوب"),
         "route": MessageLookupByLibrary.simpleMessage("المسار"),
         "sar": MessageLookupByLibrary.simpleMessage("ريال"),
-        "see_all": MessageLookupByLibrary.simpleMessage("الكل"),
+        "see_all": MessageLookupByLibrary.simpleMessage("شاهد الكل"),
+        "sell": MessageLookupByLibrary.simpleMessage("البيع"),
         "setting": MessageLookupByLibrary.simpleMessage("الإعدادات"),
         "ship_details": MessageLookupByLibrary.simpleMessage("تفاصيل الشحن"),
         "shipped": MessageLookupByLibrary.simpleMessage("تم الشحن"),

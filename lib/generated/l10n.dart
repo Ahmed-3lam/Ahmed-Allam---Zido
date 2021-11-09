@@ -150,6 +150,36 @@ class S {
     );
   }
 
+  /// `Buy`
+  String get buy {
+    return Intl.message(
+      'Buy',
+      name: 'buy',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sell`
+  String get sell {
+    return Intl.message(
+      'Sell',
+      name: 'sell',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Profile`
+  String get profile {
+    return Intl.message(
+      'Profile',
+      name: 'profile',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `ZaheyDashboard`
   String get appName {
     return Intl.message(

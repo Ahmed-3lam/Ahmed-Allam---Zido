@@ -1,6 +1,6 @@
 {
   "latest_items": "أحدث العناصر",
-"see_all": "الكل",
+"see_all": "شاهد الكل",
   "used": "مستعمل",
   "private_auctions": "المزادات الخاصة",
   "latest_posts": "آخر المنشورات",
@@ -9,6 +9,9 @@
   "havar": "حفار جيد",
   "AhmedAllam": "أحمد علام",
   "join": "انضم",
+  "buy": "الشراء",
+  "sell": "البيع",
+  "profile": "حسابي",
 
 
 

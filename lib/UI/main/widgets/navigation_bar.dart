@@ -16,7 +16,7 @@ class CustomNavBar extends StatelessWidget {
       type: BottomNavigationBarType.fixed,
       selectedItemColor: MColors.colorPrimarySwatch,
       backgroundColor: Colors.white,
-      elevation: 0,
+      // elevation: 0,
       currentIndex: cubit.currentIndex,
       onTap: (index) {
         cubit.changeBottomNavBar(index);

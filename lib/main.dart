@@ -8,7 +8,7 @@ import 'package:get/get.dart';
 
 import 'UI/main/cubit/main_cubit.dart';
 import 'UI/main/main_screen.dart';
-import 'generated/l10n.dart';
+import 'Helpers/generated/l10n.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

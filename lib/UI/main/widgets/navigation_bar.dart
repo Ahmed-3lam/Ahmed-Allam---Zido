@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:zido/CommonUtils/image_utils.dart';
+import 'package:zido/Helpers/CommonUtils/image_utils.dart';
 import 'package:zido/UI/main/cubit/main_cubit.dart';
-import 'package:zido/generated/l10n.dart';
-import 'package:zido/res/m_colors.dart';
+import 'package:zido/Helpers/generated/l10n.dart';
+import 'package:zido/Helpers/res/m_colors.dart';
 
 class CustomNavBar extends StatelessWidget {
   final MainCubit cubit;

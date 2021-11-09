@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meta/meta.dart';
-import 'package:zido/CommonUtils/image_utils.dart';
-import 'package:zido/res/m_colors.dart';
+import 'package:zido/Helpers/CommonUtils/image_utils.dart';
+import 'package:zido/Helpers/res/m_colors.dart';
 
 part 'main_state.dart';
 

@@ -2,10 +2,10 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:intl/intl.dart' as intl;
-import 'package:zido/CommonUtils/image_utils.dart';
-import 'package:zido/generated/l10n.dart';
-import 'package:zido/res/m_colors.dart';
+
 import 'dart:math' as math;
+
+import 'package:zido/Helpers/res/m_colors.dart';
 
 class BannerBuilder extends StatefulWidget {
    BannerBuilder({Key? key}) : super(key: key);

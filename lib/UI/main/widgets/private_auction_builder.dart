@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:zido/generated/l10n.dart';
-import 'package:zido/res/gaps.dart';
-import 'package:zido/res/m_colors.dart';
+import 'package:zido/Helpers/generated/l10n.dart';
+import 'package:zido/Helpers/res/gaps.dart';
+import 'package:zido/Helpers/res/m_colors.dart';
 
 class PrivateAuctionBuilder extends StatelessWidget {
   final bool? isPending;

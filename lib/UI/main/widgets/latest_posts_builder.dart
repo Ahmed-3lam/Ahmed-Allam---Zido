@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:zido/generated/l10n.dart';
-import 'package:zido/res/gaps.dart';
+import 'package:zido/Helpers/generated/l10n.dart';
+import 'package:zido/Helpers/res/gaps.dart';
 
 class LatestPostsBuilder extends StatelessWidget {
   const LatestPostsBuilder({Key? key}) : super(key: key);

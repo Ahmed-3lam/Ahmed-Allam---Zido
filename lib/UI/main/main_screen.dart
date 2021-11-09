@@ -9,9 +9,9 @@ import 'package:zido/UI/main/widgets/latest_item_builder.dart';
 import 'package:zido/UI/main/widgets/latest_posts_builder.dart';
 import 'package:zido/UI/main/widgets/navigation_bar.dart';
 import 'package:zido/UI/main/widgets/private_auction_builder.dart';
-import 'package:zido/generated/l10n.dart';
-import 'package:zido/res/gaps.dart';
-import 'package:zido/res/m_colors.dart';
+import 'package:zido/Helpers/generated/l10n.dart';
+import 'package:zido/Helpers/res/gaps.dart';
+import 'package:zido/Helpers/res/m_colors.dart';
 import 'cubit/main_cubit.dart';
 
 class MainScreen extends StatefulWidget {
